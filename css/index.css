@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+#container {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background-image: url('../img/img04.jpg');
+    background-attachment: fixed;
+    background-position-x: 70%;
+    background-size: cover;
+    padding-bottom: 100px;
+    position: sticky;
+    text-shadow: 5px 5px 10px #4140404b;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: #019ea7;
+}
+
+p {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: auto;
+}
+
+article {
+    padding-top: 50px;
+}

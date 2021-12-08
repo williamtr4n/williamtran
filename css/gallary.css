@@ -1,0 +1,9 @@
+.article img{
+    box-sizing: border-box;
+    float: left;
+    width: 27vw;
+    padding: 5px;
+}
+.article{
+    margin-left: 9%;
+}
