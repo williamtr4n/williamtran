@@ -29,7 +29,7 @@ body {
     text-transform: uppercase;
     display: inline-block;
     margin: 10px 20px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -39,7 +39,17 @@ body {
 }
 
 .navbar ul li a:hover {
-    color: #019ea7;
+    color: #8fc1fae3;
+    transition: 0.2s;
+    border-bottom: 7px #8fc1fae3 solid;
+}
+
+.active {
+    border-bottom: 7px #8fc1fae3 solid;
+}
+
+.navbar ul .active a {
+    color: #8fc1fae3;
 }
 
 p {
